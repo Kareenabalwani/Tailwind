@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h2 class="text-[green] text-center py-5">Grid template</h2>
+    <div class="max-w-1200px mx-auto container  grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+    </div>
+    <h2 class="text-[green] text-center py-5">Grid col span </h2>
+
+    <div class="max-w-1200px mx-auto container  grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
+        <div class="py-5 text-center col-span-2 bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+    </div>
+
+    <h2 class="text-[green] text-center py-5">Grid col start and end </h2>
+
+    <div class="max-w-1200px mx-auto container  grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
+        <div class="py-5 text-center col-start-2 bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white col-start-1 col-end-4">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello</div>
+    </div>
+
+    <h2 class="text-[green] text-center py-5">Grid flow row </h2>
+
+    <div class="max-w-1200px mx-auto container  grid lg:grid-rows-4 grid-flow-col gap-5">
+        <div class="py-5 text-center bg-[green] text-white">Hello 1</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 2</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 3</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 4</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 5</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 6</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 7</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 8</div>
+    </div>
+
+    <h2 class="text-[green] text-center py-5">Grid flow row-> row-span </h2>
+
+    <div class="max-w-1200px mx-auto container  grid lg:grid-rows-4 grid-flow-col gap-5">
+        <div class="py-5 text-center bg-[green] text-white row-span-2">Hello 1</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 2</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 3</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 4</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 5</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 6</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 7</div>
+        <div class="py-5 text-center bg-[green] text-white row-span-full">Hello 8</div>
+    </div>
+
+    <h2 class="text-[green] text-center py-5">Grid flow row-> row-start and row-end </h2>
+
+    <div class="max-w-1200px mx-auto container  grid lg:grid-rows-4 grid-flow-col gap-5">
+        <div class="py-5 text-center bg-[green] text-white">Hello 1</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 2</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 3</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 4</div>
+        <div class="py-5 text-center bg-[green] text-white row-start-2 row-end-4">Hello 5</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 6</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 7</div>
+        <div class="py-5 text-center bg-[green] text-white">Hello 8</div>
+    </div>
+</body>
+</html>

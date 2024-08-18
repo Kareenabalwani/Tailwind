@@ -1,0 +1,35 @@
+tailwind cdn -
+<script src="https://cdn.tailwindcss.com"></script>
+include in header of html
+
+
+paste the tailwind config js code in script tag and change the values of screens 
+but if u want your own screen sizes then inside extend paste below code
+
+extend:{
+	screens:{
+	'customsize-xs':{'min':'320px','max':'567px'}
+	}
+}
+
+<p class="xs:text-[blue]"></p>
+
+
+if you want to add your own new color or screen size just paste the tailwind config extend code
+
+
+trick:
+to apply your custom color
+<p class="text-[#02a2134]">hello</p>
+<p class="text-[blue]">hello</p>
+
+
+just like css variables , you want to keep the fixed colors to be used in your theme u can set those colors in tailwind config theme colors
+- remember no other color will be applied than the specified ones in theme
+but the <p class="text-[blue]">hello</p> trick will always work
+
+
+for small screen
+<p class="sm:py-10"></p>
+<p class="sm:py-10 lg:py-15 py-5"></p>
+padding top will be 10 in small screen 15 in large screen 5 in every other screen
